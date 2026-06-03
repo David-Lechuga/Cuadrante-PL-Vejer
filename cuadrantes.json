@@ -1,4 +1,12 @@
 {
-  "actualizado": "",
-  "cuadrantes": {}
+  "actualizado": "PRUEBA",
+  "cuadrantes": {
+    "ENERO": [
+      {
+        "agente": "PRUEBA",
+        "dia": 1,
+        "turno": "M"
+      }
+    ]
+  }
 }
