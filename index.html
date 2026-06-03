@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cuadrante Policía Local</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+body{
+    background:#f3f4f6;
+}
+</style>
+
+</head>
+<body>
+
+<div class="max-w-6xl mx-auto mt-10 bg-white rounded-2xl shadow-lg p-6">
+
+    <h1 class="text-5xl font-bold text-center mb-10">
+        Cuadrante Policía Local
+    </h1>
+
+    <div class="grid md:grid-cols-2 gap-4">
+
+        <div>
+            <label class="font-bold block mb-2">
+                Día
+            </label>
+
+            <select id="dia"
+                class="w-full border rounded p-3">
+
+            </select>
+        </div>
+
+        <div>
+            <label class="font-bold block mb-2">
+                Mes
+            </label>
+
+            <select id="mes"
+                class="w-full border rounded p-3">
+
+                <option value="1">Enero</option>
+                <option value="2">Febrero</option>
+                <option value="3">Marzo</option>
+                <option value="4">Abril</option>
+                <option value="5">Mayo</option>
+                <option value="6">Junio</option>
+                <option value="7">Julio</option>
+                <option value="8">Agosto</option>
+                <option value="9">Septiembre</option>
+                <option value="10">Octubre</option>
+                <option value="11">Noviembre</option>
+                <option value="12">Diciembre</option>
+
+            </select>
+        </div>
+
+    </div>
+
+    <button
+        onclick="buscarTurnos()"
+        class="mt-6 w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded">
+
+        Buscar Turnos
+
+    </button>
+
+    <div id="resultado" class="mt-8"></div>
+
+</div>
+
+<script>
+
+let cuadrantes = {};
+
+for(let i=1;i<=31;i++){
+
+    document.getElementById("dia").innerHTML +=
+        `<option value="${i}">${i}</option>`;
+
+}
+
+async function cargarDatosOnline(){
+
+    try{
+
+        const response =
+            await fetch("./cuadrantes.json");
+
+        if(!response.ok){
+
+            throw new Error(
+                "No se pudo cargar cuadrantes.json"
+            );
+
+        }
+
+        const datos = await response.json();
+
+        cuadrantes = datos.cuadrantes || {};
+
+        console.log("Datos cargados");
+
+        console.log(cuadrantes);
+
+    }
+    catch(error){
+
+        console.error(error);
+
+        document.getElementById("resultado").innerHTML =
+        `
+        <div class="bg-red-100 text-red-700 p-4 rounded">
+            Error cargando datos
+        </div>
+        `;
+
+    }
+
+}
+
+function crearCaja(titulo, lista){
+
+    return `
+    <div class="bg-white border rounded-xl shadow p-4">
+
+        <h3 class="text-xl font-bold mb-3">
+            ${titulo}
+        </h3>
+
+        ${
+            lista.length
+            ?
+            `<ul>
+                ${lista.map(x=>`<li>${x}</li>`).join("")}
+             </ul>`
+            :
+            `<p class="text-gray-500">Sin agentes</p>`
+        }
+
+    </div>
+    `;
+
+}
+
+function buscarTurnos(){
+
+    const dia =
+        parseInt(
+            document.getElementById("dia").value
+        );
+
+    const mesNumero =
+        parseInt(
+            document.getElementById("mes").value
+        );
+
+    const nombresMeses = [
+
+        "",
+        "ENERO",
+        "FEBRERO",
+        "MARZO",
+        "ABRIL",
+        "MAYO",
+        "JUNIO",
+        "JULIO",
+        "AGOSTO",
+        "SEPTIEMBRE",
+        "OCTUBRE",
+        "NOVIEMBRE",
+        "DICIEMBRE"
+
+    ];
+
+    const nombreMes =
+        nombresMeses[mesNumero];
+
+    const datosMes =
+        cuadrantes[nombreMes];
+
+    if(!datosMes){
+
+        document.getElementById("resultado").innerHTML =
+        `
+        <div class="bg-red-100 text-red-700 p-4 rounded">
+            No hay datos para este mes
+        </div>
+        `;
+
+        return;
+
+    }
+
+    const manana = [];
+    const noche = [];
+    const playa = [];
+    const vacaciones = [];
+    const extras = [];
+
+    datosMes.forEach(item=>{
+
+        if(item.dia !== dia) return;
+
+        const turno =
+            String(item.turno).trim();
+
+        if(turno==="M")
+            manana.push(item.agente);
+
+        else if(turno==="N")
+            noche.push(item.agente);
+
+        else if(turno==="PL")
+            playa.push(item.agente);
+
+        else if(turno==="VA")
+            vacaciones.push(item.agente);
+
+        else if(turno==="HM")
+            extras.push(`${item.agente} → 07:00-19:00`);
+
+        else if(turno==="HN")
+            extras.push(`${item.agente} → 19:00-07:00`);
+
+        else if(turno==="Hm")
+            extras.push(`${item.agente} → 06:00-14:00`);
+
+        else if(turno==="Ht")
+            extras.push(`${item.agente} → 14:00-22:00`);
+
+        else if(turno==="Hn")
+            extras.push(`${item.agente} → 22:00-06:00`);
+
+        else if(turno==="HPL")
+            extras.push(`${item.agente} → 12:00-20:00`);
+
+    });
+
+    let html =
+
+    `
+    <h2 class="text-3xl font-bold mb-6">
+        Turnos del ${dia} de ${nombreMes}
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-4">
+
+        ${crearCaja("🌞 Mañana",manana)}
+
+        ${crearCaja("🌙 Noche",noche)}
+
+        ${crearCaja("🏖️ Playa",playa)}
+
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-4 mt-6">
+
+        ${crearCaja("🏝️ Vacaciones",vacaciones)}
+
+        <div class="md:col-span-2">
+
+            ${crearCaja(
+                "⏰ Horas Extra",
+                extras
+            )}
+
+        </div>
+
+    </div>
+    `;
+
+    document.getElementById("resultado").innerHTML =
+        html;
+
+}
+
+cargarDatosOnline();
+
+</script>
+
+</body>
+</html>
