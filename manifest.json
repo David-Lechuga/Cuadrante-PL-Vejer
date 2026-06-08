@@ -1,0 +1,26 @@
+{
+  "id": "/Cuadrante-PL-Vejer/",
+  "name": "Cuadrante Policía Local Vejer",
+  "short_name": "PL Vejer",
+  "description": "Cuadrante Policía Local Vejer",
+  "start_url": "/Cuadrante-PL-Vejer/",
+  "scope": "/Cuadrante-PL-Vejer/",
+  "display": "standalone",
+  "background_color": "#0A2342",
+  "theme_color": "#0A2342",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icono-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
