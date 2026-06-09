@@ -1,5 +1,5 @@
 {
-  "actualizado": "08/06/2026 16:48:29",
+  "actualizado": "09/06/2026 09:32:48",
   "cuadrantes": {
     "ENERO": [
       {
@@ -15940,7 +15940,7 @@
       {
         "agente": "MORENTE",
         "dia": 11,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "MORENTE",
@@ -16840,7 +16840,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 11,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "J.G. APARICIO",
@@ -17005,7 +17005,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 14,
-        "turno": "VA"
+        "turno": "PL"
       },
       {
         "agente": "ANA ANDRADES",
@@ -17135,144 +17135,144 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 10,
+        "turno": "CN"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 11,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 12,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 13,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 14,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 15,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 16,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 17,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 18,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 19,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 20,
+        "turno": "VA"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 21,
+        "turno": "D"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 22,
+        "turno": "D"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 23,
+        "turno": "M"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 24,
+        "turno": "N"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 25,
+        "turno": "D"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 26,
+        "turno": "D"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 27,
+        "turno": "PL"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 28,
+        "turno": "M"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 29,
+        "turno": "N"
+      },
+      {
+        "agente": "MELCHOR GARCIA",
+        "dia": 30,
+        "turno": "D"
+      },
+      {
+        "agente": "PEDRO GUERRERO",
+        "dia": 1,
+        "turno": "M"
+      },
+      {
+        "agente": "PEDRO GUERRERO",
+        "dia": 2,
+        "turno": "N"
+      },
+      {
+        "agente": "PEDRO GUERRERO",
+        "dia": 3,
+        "turno": "D"
+      },
+      {
+        "agente": "PEDRO GUERRERO",
+        "dia": 4,
+        "turno": "HN"
+      },
+      {
+        "agente": "PEDRO GUERRERO",
+        "dia": 5,
+        "turno": "D"
+      },
+      {
+        "agente": "PEDRO GUERRERO",
+        "dia": 6,
+        "turno": "M"
+      },
+      {
+        "agente": "PEDRO GUERRERO",
+        "dia": 7,
         "turno": "CM"
       },
       {
-        "agente": "MELCHOR GARCIA",
-        "dia": 11,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 12,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 13,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 14,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 15,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 16,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 17,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 18,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 19,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 20,
-        "turno": "VA"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 21,
-        "turno": "D"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 22,
-        "turno": "D"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 23,
-        "turno": "M"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 24,
-        "turno": "N"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 25,
-        "turno": "D"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 26,
-        "turno": "D"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 27,
-        "turno": "PL"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 28,
-        "turno": "M"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 29,
-        "turno": "N"
-      },
-      {
-        "agente": "MELCHOR GARCIA",
-        "dia": 30,
-        "turno": "D"
-      },
-      {
-        "agente": "PEDRO GUERRERO",
-        "dia": 1,
-        "turno": "M"
-      },
-      {
-        "agente": "PEDRO GUERRERO",
-        "dia": 2,
-        "turno": "N"
-      },
-      {
-        "agente": "PEDRO GUERRERO",
-        "dia": 3,
-        "turno": "D"
-      },
-      {
-        "agente": "PEDRO GUERRERO",
-        "dia": 4,
-        "turno": "HN"
-      },
-      {
-        "agente": "PEDRO GUERRERO",
-        "dia": 5,
-        "turno": "D"
-      },
-      {
-        "agente": "PEDRO GUERRERO",
-        "dia": 6,
-        "turno": "M"
-      },
-      {
-        "agente": "PEDRO GUERRERO",
-        "dia": 7,
-        "turno": "CM"
-      },
-      {
         "agente": "PEDRO GUERRERO",
         "dia": 8,
         "turno": "D"
@@ -17290,7 +17290,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 11,
-        "turno": "LD"
+        "turno": "HJ"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -17305,7 +17305,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 14,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -17430,7 +17430,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 9,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "J.A. CORREA",
@@ -17605,7 +17605,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 14,
-        "turno": "N"
+        "turno": "HS"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -17625,12 +17625,12 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 18,
-        "turno": "M"
+        "turno": "HP"
       },
       {
         "agente": "DAVID LECHUGA",
         "dia": 19,
-        "turno": "N"
+        "turno": "HP"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -17730,7 +17730,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 9,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "SARMIENTO",
@@ -18940,12 +18940,12 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 11,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 12,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
@@ -18965,12 +18965,12 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 16,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 17,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
@@ -18990,12 +18990,12 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 21,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 22,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
@@ -19015,12 +19015,12 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 26,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 27,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "FRANCISCO ASENCIO",
@@ -26926,7 +26926,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 5,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "PEDRO GUERRERO",
