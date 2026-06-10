@@ -1,5 +1,5 @@
 {
-  "actualizado": "10/06/2026 15:04:34",
+  "actualizado": "10/06/2026 20:01:25",
   "cuadrantes": {
     "ENERO": [
       {
@@ -15950,7 +15950,7 @@
       {
         "agente": "MORENTE",
         "dia": 13,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "MORENTE",
@@ -16850,7 +16850,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 13,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "J.G. APARICIO",
@@ -17600,7 +17600,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 13,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -17750,7 +17750,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 13,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "SARMIENTO",
