@@ -1,5 +1,5 @@
 {
-  "actualizado": "09/06/2026 09:32:48",
+  "actualizado": "10/06/2026 13:56:13",
   "cuadrantes": {
     "ENERO": [
       {
@@ -16625,309 +16625,309 @@
       {
         "agente": "JOSE MARIA",
         "dia": 28,
+        "turno": "M"
+      },
+      {
+        "agente": "JOSE MARIA",
+        "dia": 29,
+        "turno": "N"
+      },
+      {
+        "agente": "JOSE MARIA",
+        "dia": 30,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 1,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 2,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 3,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 4,
+        "turno": "M"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 5,
+        "turno": "N"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 6,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 7,
+        "turno": "HM"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 8,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 9,
+        "turno": "M"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 10,
+        "turno": "N"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 11,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 12,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 13,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 14,
+        "turno": "M"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 15,
+        "turno": "N"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 16,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 17,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 18,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 19,
+        "turno": "M"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 20,
+        "turno": "N"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 21,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 22,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 23,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 24,
+        "turno": "M"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 25,
+        "turno": "N"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 26,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 27,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 28,
+        "turno": "D"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 29,
+        "turno": "M"
+      },
+      {
+        "agente": "DAVID MELLADO",
+        "dia": 30,
+        "turno": "N"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 1,
+        "turno": "HN"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 2,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 3,
+        "turno": "HN"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 4,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 5,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 6,
+        "turno": "HM"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 7,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 8,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 9,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 10,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 11,
+        "turno": "HM"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 12,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 13,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 14,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 15,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 16,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 17,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 18,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 19,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 20,
+        "turno": "VA"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 21,
+        "turno": "M"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 22,
+        "turno": "N"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 23,
+        "turno": "D"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 24,
+        "turno": "D"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 25,
+        "turno": "D"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 26,
+        "turno": "M"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 27,
+        "turno": "N"
+      },
+      {
+        "agente": "J.G. APARICIO",
+        "dia": 28,
         "turno": "PL"
       },
       {
-        "agente": "JOSE MARIA",
-        "dia": 29,
-        "turno": "N"
-      },
-      {
-        "agente": "JOSE MARIA",
-        "dia": 30,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 1,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 2,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 3,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 4,
-        "turno": "M"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 5,
-        "turno": "N"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 6,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 7,
-        "turno": "HM"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 8,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 9,
-        "turno": "M"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 10,
-        "turno": "N"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 11,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 12,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 13,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 14,
-        "turno": "M"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 15,
-        "turno": "N"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 16,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 17,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 18,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 19,
-        "turno": "M"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 20,
-        "turno": "N"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 21,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 22,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 23,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 24,
-        "turno": "M"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 25,
-        "turno": "N"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 26,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 27,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 28,
-        "turno": "D"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 29,
-        "turno": "M"
-      },
-      {
-        "agente": "DAVID MELLADO",
-        "dia": 30,
-        "turno": "N"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 1,
-        "turno": "HN"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 2,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 3,
-        "turno": "HN"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 4,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 5,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 6,
-        "turno": "HM"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 7,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 8,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 9,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 10,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 11,
-        "turno": "HM"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 12,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 13,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 14,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 15,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 16,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 17,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 18,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 19,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 20,
-        "turno": "VA"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 21,
-        "turno": "M"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 22,
-        "turno": "N"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 23,
-        "turno": "D"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 24,
-        "turno": "D"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 25,
-        "turno": "D"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 26,
-        "turno": "M"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 27,
-        "turno": "N"
-      },
-      {
-        "agente": "J.G. APARICIO",
-        "dia": 28,
-        "turno": "D"
-      },
-      {
         "agente": "J.G. APARICIO",
         "dia": 29,
         "turno": "D"
@@ -16995,7 +16995,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 12,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "ANA ANDRADES",
@@ -17145,7 +17145,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 12,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -17295,7 +17295,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 12,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -18195,7 +18195,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 12,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -19682,7 +19682,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 5,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "JOSE MARIA",
@@ -19992,7 +19992,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 5,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "J.G. APARICIO",
