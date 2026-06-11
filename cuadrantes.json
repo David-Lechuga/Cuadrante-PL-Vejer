@@ -1,5 +1,5 @@
 {
-  "actualizado": "11/06/2026 13:55:38",
+  "actualizado": "11/06/2026 14:21:52",
   "cuadrantes": {
     "ENERO": [
       {
@@ -17755,7 +17755,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 14,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "SARMIENTO",
@@ -18355,7 +18355,7 @@
       {
         "agente": "JOSE M. PUPO",
         "dia": 14,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "JOSE M. PUPO",
