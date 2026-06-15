@@ -1,5 +1,5 @@
 {
-  "actualizado": "13/06/2026 09:25:55",
+  "actualizado": "16/06/2026 00:54:28",
   "cuadrantes": {
     "ENERO": [
       {
@@ -15975,7 +15975,7 @@
       {
         "agente": "MORENTE",
         "dia": 18,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "MORENTE",
@@ -15990,7 +15990,7 @@
       {
         "agente": "MORENTE",
         "dia": 21,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "MORENTE",
@@ -16875,7 +16875,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 18,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "J.G. APARICIO",
@@ -17030,7 +17030,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 19,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "ANA ANDRADES",
@@ -17150,12 +17150,12 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 13,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "MELCHOR GARCIA",
         "dia": 14,
-        "turno": "HN"
+        "turno": "VA"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -17305,7 +17305,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 14,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -17775,7 +17775,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 18,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "SARMIENTO",
@@ -18500,7 +18500,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 13,
-        "turno": "N"
+        "turno": "BA"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -18670,7 +18670,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 17,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "OFICIAL CORTABARRA",
