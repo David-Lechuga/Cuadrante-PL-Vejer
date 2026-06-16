@@ -1,5 +1,5 @@
 {
-  "actualizado": "16/06/2026 00:54:28",
+  "actualizado": "16/06/2026 13:38:38",
   "cuadrantes": {
     "ENERO": [
       {
@@ -16575,7 +16575,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 18,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "JOSE MARIA",
@@ -17175,7 +17175,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 18,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -17325,7 +17325,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 18,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -17475,7 +17475,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 18,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "J.A. CORREA",
@@ -26471,7 +26471,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 4,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "J.G. APARICIO",
@@ -26506,7 +26506,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 11,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "J.G. APARICIO",
@@ -26626,7 +26626,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 5,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "ANA ANDRADES",
@@ -26921,12 +26921,12 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 4,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "PEDRO GUERRERO",
         "dia": 5,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -26956,7 +26956,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 11,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "PEDRO GUERRERO",
