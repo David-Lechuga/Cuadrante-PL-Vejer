@@ -1,5 +1,5 @@
 {
-  "actualizado": "16/06/2026 13:38:38",
+  "actualizado": "19/06/2026 18:27:10",
   "cuadrantes": {
     "ENERO": [
       {
@@ -15980,17 +15980,17 @@
       {
         "agente": "MORENTE",
         "dia": 19,
-        "turno": "M"
+        "turno": "CN"
       },
       {
         "agente": "MORENTE",
         "dia": 20,
-        "turno": "D"
+        "turno": "CN"
       },
       {
         "agente": "MORENTE",
         "dia": 21,
-        "turno": "HM"
+        "turno": "D"
       },
       {
         "agente": "MORENTE",
@@ -16005,12 +16005,12 @@
       {
         "agente": "MORENTE",
         "dia": 24,
-        "turno": "D"
+        "turno": "M"
       },
       {
         "agente": "MORENTE",
         "dia": 25,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "MORENTE",
@@ -16285,12 +16285,12 @@
       {
         "agente": "PATRICIA",
         "dia": 20,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "PATRICIA",
         "dia": 21,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "PATRICIA",
@@ -16590,7 +16590,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 21,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "JOSE MARIA",
@@ -16715,7 +16715,7 @@
       {
         "agente": "DAVID MELLADO",
         "dia": 16,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "DAVID MELLADO",
@@ -16890,7 +16890,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 21,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "J.G. APARICIO",
@@ -17190,7 +17190,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 21,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -17330,12 +17330,12 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 19,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
         "dia": 20,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -17355,12 +17355,12 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 24,
-        "turno": "CM"
+        "turno": "VA"
       },
       {
         "agente": "PEDRO GUERRERO",
         "dia": 25,
-        "turno": "VA"
+        "turno": "CM"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -17480,7 +17480,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 19,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "J.A. CORREA",
@@ -17935,7 +17935,7 @@
       {
         "agente": "ANTONIO MALIA",
         "dia": 20,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -18075,7 +18075,7 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 18,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -18090,7 +18090,7 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 21,
-        "turno": "N"
+        "turno": "CM"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -18215,7 +18215,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 16,
-        "turno": "N"
+        "turno": "AF"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -18390,7 +18390,7 @@
       {
         "agente": "JOSE M. PUPO",
         "dia": 21,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "JOSE M. PUPO",
@@ -18525,7 +18525,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 18,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -18535,7 +18535,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 20,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -18685,7 +18685,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 20,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -18840,7 +18840,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 21,
-        "turno": "N"
+        "turno": "CM"
       },
       {
         "agente": "SAMUEL PEREZ",
