@@ -1,5 +1,5 @@
 {
-  "actualizado": "19/06/2026 18:27:10",
+  "actualizado": "24/06/2026 21:58:36",
   "cuadrantes": {
     "ENERO": [
       {
@@ -16005,7 +16005,7 @@
       {
         "agente": "MORENTE",
         "dia": 24,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "MORENTE",
@@ -16030,12 +16030,12 @@
       {
         "agente": "MORENTE",
         "dia": 29,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "MORENTE",
         "dia": 30,
-        "turno": "M"
+        "turno": "AF"
       },
       {
         "agente": "DOLORES LOPEZ",
@@ -16150,7 +16150,7 @@
       {
         "agente": "DOLORES LOPEZ",
         "dia": 23,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DOLORES LOPEZ",
@@ -16165,7 +16165,7 @@
       {
         "agente": "DOLORES LOPEZ",
         "dia": 26,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "DOLORES LOPEZ",
@@ -16615,7 +16615,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 26,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "JOSE MARIA",
@@ -16920,7 +16920,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 27,
-        "turno": "N"
+        "turno": "CM"
       },
       {
         "agente": "J.G. APARICIO",
@@ -17045,7 +17045,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 22,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "ANA ANDRADES",
@@ -17070,7 +17070,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 27,
-        "turno": "M"
+        "turno": "CN"
       },
       {
         "agente": "ANA ANDRADES",
@@ -17510,7 +17510,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 25,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "J.A. CORREA",
@@ -17520,7 +17520,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 27,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "J.A. CORREA",
@@ -17970,7 +17970,7 @@
       {
         "agente": "ANTONIO MALIA",
         "dia": 27,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -18110,7 +18110,7 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 25,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -18260,7 +18260,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 25,
-        "turno": "M"
+        "turno": "BA"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -18270,7 +18270,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 27,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -18420,7 +18420,7 @@
       {
         "agente": "JOSE M. PUPO",
         "dia": 27,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "JOSE M. PUPO",
@@ -18695,7 +18695,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 22,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -18865,7 +18865,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 26,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "SAMUEL PEREZ",
