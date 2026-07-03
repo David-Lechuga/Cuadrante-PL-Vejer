@@ -1,5 +1,5 @@
 {
-  "actualizado": "30/06/2026 14:45:28",
+  "actualizado": "03/07/2026 18:43:48",
   "cuadrantes": {
     "ENERO": [
       {
@@ -17365,7 +17365,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 26,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -19057,12 +19057,12 @@
       {
         "agente": "MORENTE",
         "dia": 4,
-        "turno": "M"
+        "turno": "N"
       },
       {
         "agente": "MORENTE",
         "dia": 5,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "MORENTE",
@@ -19362,7 +19362,7 @@
       {
         "agente": "PATRICIA",
         "dia": 3,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "PATRICIA",
@@ -19662,7 +19662,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 1,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "JOSE MARIA",
@@ -19677,7 +19677,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 4,
-        "turno": "N"
+        "turno": "M"
       },
       {
         "agente": "JOSE MARIA",
@@ -19972,12 +19972,12 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 1,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "J.G. APARICIO",
         "dia": 2,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "J.G. APARICIO",
@@ -20142,12 +20142,12 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 4,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "ANA ANDRADES",
         "dia": 5,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "ANA ANDRADES",
@@ -20177,7 +20177,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 11,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "ANA ANDRADES",
@@ -20447,12 +20447,12 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 3,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
         "dia": 4,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -20607,7 +20607,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 4,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "J.A. CORREA",
@@ -20922,7 +20922,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 5,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "SARMIENTO",
@@ -21077,7 +21077,7 @@
       {
         "agente": "ANTONIO MALIA",
         "dia": 5,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -21227,7 +21227,7 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 4,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -21262,7 +21262,7 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 11,
-        "turno": "VA"
+        "turno": "PL"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -21387,12 +21387,12 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 5,
-        "turno": "M"
+        "turno": "BA"
       },
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 6,
-        "turno": "N"
+        "turno": "BA"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -21692,7 +21692,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 4,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -21992,7 +21992,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 2,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "SAMUEL PEREZ",
@@ -22152,7 +22152,7 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 3,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "FRANCISCO ASENCIO",
