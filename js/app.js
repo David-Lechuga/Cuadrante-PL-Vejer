@@ -23,10 +23,22 @@ console.warn("No se pudo cargar telefonos.json");
 }
 }
 
-function crearCaja(titulo,lista){
+function abrirMenuAgente(nombre, turno, fecha){
+console.log({ nombre, turno, fecha });
+}
+
+function crearCaja(titulo,lista,turnoCodigo){
+const dia=document.getElementById("dia").value;
+const mes=document.getElementById("mes").value;
+const fecha=`${dia}/${mes}`;
+const turnoEscapado=String(turnoCodigo||"").replace(/'/g,"\\'").replace(/"/g,'\\"');
+const items=lista.map(x=>{
+const nombreEscapado=String(x).replace(/'/g,"\\'").replace(/"/g,'\\"');
+return `<li class="cursor-pointer rounded px-1 py-1 transition-colors hover:bg-gray-100" onclick="abrirMenuAgente('${nombreEscapado}', '${turnoEscapado}', '${fecha}')">• ${x}</li>`;
+}).join("");
 return `<div class="tarjeta">
 <h3 class="text-lg font-bold text-[#0A2342] border-b pb-2 mb-3">${titulo}</h3>
-${lista.length?`<ul class="space-y-1">${lista.map(x=>`<li>• ${x}</li>`).join("")}</ul>`:`<p class="text-gray-500">Sin agentes</p>`}
+${lista.length?`<ul class="space-y-1">${items}</ul>`:`<p class="text-gray-500">Sin agentes</p>`}
 </div>`;
 }
 
@@ -72,12 +84,12 @@ noche.push(refuerzoNoche===1?"+1 agente de horas extras":`+${refuerzoNoche} agen
 }
 
 let cajasExtras="";
-if(extraHM.length) cajasExtras+=crearCaja("Mañana 12h",extraHM);
-if(extraHN.length) cajasExtras+=crearCaja("Noche 12h",extraHN);
-if(extraHm.length) cajasExtras+=crearCaja("Mañana 8h",extraHm);
-if(extraHt.length) cajasExtras+=crearCaja("Tarde 8h",extraHt);
-if(extraHn.length) cajasExtras+=crearCaja("Noche 8h",extraHn);
-if(extraHPL.length) cajasExtras+=crearCaja("Playa",extraHPL);
+if(extraHM.length) cajasExtras+=crearCaja("Mañana 12h",extraHM,"HM");
+if(extraHN.length) cajasExtras+=crearCaja("Noche 12h",extraHN,"HN");
+if(extraHm.length) cajasExtras+=crearCaja("Mañana 8h",extraHm,"Hm");
+if(extraHt.length) cajasExtras+=crearCaja("Tarde 8h",extraHt,"Ht");
+if(extraHn.length) cajasExtras+=crearCaja("Noche 8h",extraHn,"Hn");
+if(extraHPL.length) cajasExtras+=crearCaja("Playa",extraHPL,"HPL");
 
 const hayExtras=extraHM.length||extraHN.length||extraHm.length||extraHt.length||extraHn.length||extraHPL.length;
 
@@ -85,8 +97,8 @@ document.getElementById("resultado").innerHTML=`
 <h2 class="text-3xl font-bold mb-6 text-[#0A2342]">Turnos del ${dia} de ${nombreMes}</h2>
 
 <div class="grid md:grid-cols-2 gap-4">
-${crearCaja("🌞 Mañana",manana)}
-${crearCaja("🌙 Noche",noche)}
+${crearCaja("🌞 Mañana",manana,"M")}
+${crearCaja("🌙 Noche",noche,"N")}
 </div>
 
 <div class="mt-6">
@@ -97,8 +109,8 @@ ${hayExtras?`<div class="grid md:grid-cols-3 gap-4">${cajasExtras}</div>`:`<div 
 </div>
 
 <div class="grid md:grid-cols-2 gap-4 mt-6">
-${crearCaja("🏖️ Playa",playa)}
-${crearCaja("🏝️ Vacaciones",vacaciones)}
+${crearCaja("🏖️ Playa",playa,"PL")}
+${crearCaja("🏝️ Vacaciones",vacaciones,"VA")}
 </div>`;
 }
 
