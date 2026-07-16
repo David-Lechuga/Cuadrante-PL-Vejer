@@ -1,0 +1,22 @@
+body{
+min-height:100vh;
+background:linear-gradient(180deg,#071426 0%,#0A2342 50%,#102F57 100%);
+font-family:"Segoe UI",sans-serif;
+}
+.damero{
+height:20px;border-radius:6px;
+background:repeating-linear-gradient(90deg,#0A2342 0,#0A2342 20px,#fff 20px,#fff 40px);
+}
+.tarjeta{
+background:#fff;
+border-left:6px solid #123C73;
+border-radius:16px;
+box-shadow:0 4px 20px rgba(0,0,0,.12);
+padding:1rem;
+}
+.tarjeta:hover{transform:translateY(-3px);}
+
+.cabecera-titulo{
+    width:100%;
+    text-align:center;
+}

@@ -4,8 +4,8 @@ const STATIC_FILES = [
     "./",
     "./index.html",
     "./manifest.json",
-    "./icono-192.png",
-    "./icono-512.png"
+    "./img/icono-192.png",
+    "./img/icono-512.png"
 ];
 
 self.addEventListener("install", event => {
