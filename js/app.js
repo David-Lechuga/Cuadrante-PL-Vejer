@@ -1,5 +1,6 @@
 let cuadrantes={};
 let telefonos={};
+let agenteSeleccionado={ nombre:"", turno:"", fecha:"" };
 
 for(let i=1;i<=31;i++){document.getElementById("dia").innerHTML+=`<option value="${i}">${i}</option>`;}
 
@@ -23,8 +24,66 @@ console.warn("No se pudo cargar telefonos.json");
 }
 }
 
+function cerrarModalAgente(){
+const modal=document.getElementById("modalAgente");
+if(modal){
+modal.classList.add("hidden");
+modal.classList.remove("flex");
+}
+}
+
+// Normaliza texto para comparar nombres de forma más robusta.
+function normalizarTexto(texto){
+return String(texto||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").trim();
+}
+
+// Busca el teléfono del agente en el formato actual de telefonos.json.
+function obtenerTelefonoAgente(nombre){
+if(!nombre || !telefonos){return null;}
+const nombreNormalizado=normalizarTexto(nombre);
+const entrada=Object.entries(telefonos).find(([clave])=>normalizarTexto(clave)===nombreNormalizado);
+return entrada ? String(entrada[1]).trim() : null;
+}
+
 function abrirMenuAgente(nombre, turno, fecha){
+// Guarda los datos del agente para usarlos en los botones del modal.
+agenteSeleccionado={ nombre: nombre || "", turno: turno || "", fecha: fecha || "" };
+const modal=document.getElementById("modalAgente");
+const nombreEl=document.getElementById("modalAgenteNombre");
+if(modal){
+modal.classList.remove("hidden");
+modal.classList.add("flex");
+}
+if(nombreEl){
+nombreEl.textContent=agenteSeleccionado.nombre || "Agente";
+}
 console.log({ nombre, turno, fecha });
+}
+
+function enviarWhatsAppAgente(){
+const telefono=obtenerTelefonoAgente(agenteSeleccionado.nombre);
+if(!telefono){
+alert(`No hay teléfono registrado para ${agenteSeleccionado.nombre}.`);
+cerrarModalAgente();
+return;
+}
+const mensaje=`Hola ${agenteSeleccionado.nombre}, te escribo desde la app porque el día ${agenteSeleccionado.fecha} estamos juntos en el turno de ${agenteSeleccionado.turno}.`;
+const numeroWhatsApp=String(telefono).replace(/\D/g,"");
+const url=`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+window.open(url, "_blank", "noopener,noreferrer");
+cerrarModalAgente();
+}
+
+function llamarAgente(){
+const telefono=obtenerTelefonoAgente(agenteSeleccionado.nombre);
+if(!telefono){
+alert(`No hay teléfono registrado para ${agenteSeleccionado.nombre}.`);
+cerrarModalAgente();
+return;
+}
+const numeroLlamada=String(telefono).replace(/\s+/g,"");
+window.location.href=`tel:${numeroLlamada}`;
+cerrarModalAgente();
 }
 
 function crearCaja(titulo,lista,turnoCodigo){
