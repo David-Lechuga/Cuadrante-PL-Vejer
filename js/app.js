@@ -1,4 +1,5 @@
 let cuadrantes={};
+let telefonos={};
 
 for(let i=1;i<=31;i++){document.getElementById("dia").innerHTML+=`<option value="${i}">${i}</option>`;}
 
@@ -10,6 +11,15 @@ cuadrantes=datos.cuadrantes||{};
 if(document.getElementById("ultimaActualizacion")){document.getElementById("ultimaActualizacion").innerHTML=`Última sincronización: ${datos.actualizado||"Desconocida"}`;}
 }catch(e){
 document.getElementById("resultado").innerHTML='<div class="bg-red-100 text-red-700 p-4 rounded">Error cargando datos</div>';
+}
+
+try{
+const responseTelefonos=await fetch("./data/telefonos.json?t=" + Date.now(), { cache: "no-store" });
+const datosTelefonos=await responseTelefonos.json();
+telefonos=datosTelefonos.telefonos||{};
+}catch(e){
+console.warn("No se pudo cargar telefonos.json");
+    telefonos={};
 }
 }
 
