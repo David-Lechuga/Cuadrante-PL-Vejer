@@ -93,12 +93,54 @@ const fecha=`${dia}/${mes}`;
 const turnoEscapado=String(turnoCodigo||"").replace(/'/g,"\\'").replace(/"/g,'\\"');
 const items=lista.map(x=>{
 const nombreEscapado=String(x).replace(/'/g,"\\'").replace(/"/g,'\\"');
-return `<li class="cursor-pointer rounded px-1 py-1 transition-colors hover:bg-gray-100" onclick="abrirMenuAgente('${nombreEscapado}', '${turnoEscapado}', '${fecha}')">• ${x}</li>`;
+return `<li class="agent-item cursor-pointer rounded px-1 py-1 transition-colors hover:bg-gray-100" data-nombre="${nombreEscapado}" data-turno="${turnoEscapado}" data-fecha="${fecha}" style="-webkit-user-select:none; user-select:none; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">• ${x}</li>`;
 }).join("");
 return `<div class="tarjeta">
 <h3 class="text-lg font-bold text-[#0A2342] border-b pb-2 mb-3">${titulo}</h3>
 ${lista.length?`<ul class="space-y-1">${items}</ul>`:`<p class="text-gray-500">Sin agentes</p>`}
 </div>`;
+}
+
+function activarEventosAgentes(){
+const elementos=document.querySelectorAll(".agent-item");
+let touchHandled=false;
+
+elementos.forEach(elemento=>{
+const abrir=()=>{
+if(touchHandled){
+return;
+}
+const nombre=elemento.getAttribute("data-nombre")||"";
+const turno=elemento.getAttribute("data-turno")||"";
+const fecha=elemento.getAttribute("data-fecha")||"";
+abrirMenuAgente(nombre, turno, fecha);
+};
+
+elemento.addEventListener("click", (event)=>{
+if(event.detail===0){
+return;
+}
+abrir();
+}, { passive: true });
+
+elemento.addEventListener("touchend", (event)=>{
+if(event.cancelable){
+event.preventDefault();
+}
+touchHandled=true;
+abrir();
+setTimeout(()=>{touchHandled=false;}, 300);
+}, { passive: false });
+
+elemento.addEventListener("pointerup", (event)=>{
+if(event.pointerType==="touch"){
+if(event.cancelable){
+event.preventDefault();
+}
+abrir();
+}
+}, { passive: false });
+});
 }
 
 function buscarTurnos(){
@@ -171,6 +213,8 @@ ${hayExtras?`<div class="grid md:grid-cols-3 gap-4">${cajasExtras}</div>`:`<div 
 ${crearCaja("🏖️ Playa",playa,"PL")}
 ${crearCaja("🏝️ Vacaciones",vacaciones,"VA")}
 </div>`;
+
+activarEventosAgentes();
 }
 
 function irAHoy(){
