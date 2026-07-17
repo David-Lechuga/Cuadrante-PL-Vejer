@@ -60,6 +60,23 @@ nombreEl.textContent=agenteSeleccionado.nombre || "Agente";
 console.log({ nombre, turno, fecha });
 }
 
+function convertirTurnoTexto(turno){
+const valor=String(turno||"").trim();
+const mapa={
+M:"Mañana",
+N:"Noche",
+PL:"Playa",
+HM:"Horas Extra Mañana 12h",
+HN:"Horas Extra Noche 12h",
+Hm:"Horas Extra Mañana 8h",
+Ht:"Horas Extra Tarde 8h",
+Hn:"Horas Extra Noche 8h",
+HPL:"Horas Extra Playa",
+VA:"Vacaciones"
+};
+return mapa[valor] || valor || "Sin turno";
+}
+
 function enviarWhatsAppAgente(){
 const telefono=obtenerTelefonoAgente(agenteSeleccionado.nombre);
 if(!telefono){
@@ -67,7 +84,8 @@ alert(`No hay teléfono registrado para ${agenteSeleccionado.nombre}.`);
 cerrarModalAgente();
 return;
 }
-const mensaje=`Hola ${agenteSeleccionado.nombre}, te escribo desde la app porque el día ${agenteSeleccionado.fecha} estamos juntos en el turno de ${agenteSeleccionado.turno}.`;
+const turnoTexto=convertirTurnoTexto(agenteSeleccionado.turno);
+const mensaje=`Hola ${agenteSeleccionado.nombre}, te escribo desde la app porque el día ${agenteSeleccionado.fecha} estamos juntos en el turno de ${turnoTexto}.`;
 const numeroWhatsApp=String(telefono).replace(/\D/g,"");
 const url=`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 window.open(url, "_blank", "noopener,noreferrer");
