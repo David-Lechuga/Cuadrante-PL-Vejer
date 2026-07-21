@@ -6,7 +6,7 @@ for(let i=1;i<=31;i++){document.getElementById("dia").innerHTML+=`<option value=
 
 async function cargarDatosOnline(){
 try{
-const response=await fetch("./data/cuadrantes.json?t=" + Date.now(), { cache: "no-store" });
+const response=await fetch("./cuadrantes.json?t=" + Date.now(), { cache: "no-store" });
 const datos=await response.json();
 cuadrantes=datos.cuadrantes||{};
 if(document.getElementById("ultimaActualizacion")){document.getElementById("ultimaActualizacion").innerHTML=`Última sincronización: ${datos.actualizado||"Desconocida"}`;}
@@ -15,7 +15,7 @@ document.getElementById("resultado").innerHTML='<div class="bg-red-100 text-red-
 }
 
 try{
-const responseTelefonos=await fetch("./data/telefonos.json?t=" + Date.now(), { cache: "no-store" });
+const responseTelefonos=await fetch("./telefonos.json?t=" + Date.now(), { cache: "no-store" });
 const datosTelefonos=await responseTelefonos.json();
 telefonos=datosTelefonos.telefonos||{};
 }catch(e){
