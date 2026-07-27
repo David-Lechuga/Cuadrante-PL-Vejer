@@ -1,5 +1,5 @@
 {
-  "actualizado": "25/07/2026 09:59:22",
+  "actualizado": "27/07/2026 13:39:20",
   "cuadrantes": {
     "ENERO": [
       {
@@ -19597,7 +19597,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 28,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -19752,7 +19752,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 28,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "JOSE MARIA",
@@ -20062,7 +20062,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 28,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "J.G. APARICIO",
@@ -20232,7 +20232,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 31,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -20842,7 +20842,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 29,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -22252,7 +22252,7 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 31,
-        "turno": "PL"
+        "turno": "D"
       }
     ],
     "AGOSTO": [
@@ -22724,7 +22724,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 1,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -23444,20 +23444,20 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 21,
-        "turno": "PL"
-      },
-      {
-        "agente": "ANA ANDRADES",
-        "dia": 22,
-        "turno": "N"
-      },
-      {
-        "agente": "ANA ANDRADES",
-        "dia": 23,
         "turno": "D"
       },
       {
         "agente": "ANA ANDRADES",
+        "dia": 22,
+        "turno": "N"
+      },
+      {
+        "agente": "ANA ANDRADES",
+        "dia": 23,
+        "turno": "D"
+      },
+      {
+        "agente": "ANA ANDRADES",
         "dia": 24,
         "turno": "D"
       },
@@ -24119,7 +24119,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 1,
-        "turno": "D"
+        "turno": "PL"
       },
       {
         "agente": "SARMIENTO",
@@ -25459,7 +25459,7 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 21,
-        "turno": "VA"
+        "turno": "PL"
       },
       {
         "agente": "FRANCISCO ASENCIO",
