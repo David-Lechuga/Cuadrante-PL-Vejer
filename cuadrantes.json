@@ -1,5 +1,5 @@
 {
-  "actualizado": "27/07/2026 19:37:13",
+  "actualizado": "29/07/2026 11:34:19",
   "cuadrantes": {
     "ENERO": [
       {
@@ -22257,169 +22257,14 @@
     ],
     "AGOSTO": [
       {
-        "agente": "MORENTE",
-        "dia": 1,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 2,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 3,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 4,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 5,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 6,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 7,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 8,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 9,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 10,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 11,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 12,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 13,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 14,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 15,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 16,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 17,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 18,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 19,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 20,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 21,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 22,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 23,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 24,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 25,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 26,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 27,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 28,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 29,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 30,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 31,
-        "turno": "D"
-      },
-      {
         "agente": "DOLORES LOPEZ",
         "dia": 1,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DOLORES LOPEZ",
         "dia": 2,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DOLORES LOPEZ",
@@ -22729,7 +22574,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 2,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -23504,7 +23349,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 2,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -23654,12 +23499,12 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 1,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "PEDRO GUERRERO",
         "dia": 2,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -23969,7 +23814,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 2,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -24124,7 +23969,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 2,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "SARMIENTO",
@@ -24744,7 +24589,7 @@
       {
         "agente": "JOSE M. PUPO",
         "dia": 2,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "JOSE M. PUPO",
@@ -24899,7 +24744,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 2,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "A. CAAMAÑO",
