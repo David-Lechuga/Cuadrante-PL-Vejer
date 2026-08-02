@@ -86,8 +86,13 @@ return;
 }
 const turnoTexto=convertirTurnoTexto(agenteSeleccionado.turno);
 const mensaje=`Hola ${agenteSeleccionado.nombre}, te escribo desde la app porque el día ${agenteSeleccionado.fecha} estamos juntos en el turno de ${turnoTexto}.`;
-const numeroWhatsApp=String(telefono).replace(/\D/g,"");
-const url=`https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+let numeroWhatsApp = String(telefono).replace(/\D/g, "");
+
+if (numeroWhatsApp.length === 9) {
+    numeroWhatsApp = "34" + numeroWhatsApp;
+}
+
+const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 window.open(url, "_blank", "noopener,noreferrer");
 cerrarModalAgente();
 }
