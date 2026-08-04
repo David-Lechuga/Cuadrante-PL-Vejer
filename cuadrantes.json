@@ -1,5 +1,5 @@
 {
-  "actualizado": "30/07/2026 07:23:01",
+  "actualizado": "04/08/2026 11:03:01",
   "cuadrantes": {
     "ENERO": [
       {
@@ -22284,7 +22284,7 @@
       {
         "agente": "DOLORES LOPEZ",
         "dia": 6,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DOLORES LOPEZ",
@@ -22584,7 +22584,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 4,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -23044,7 +23044,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 3,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "J.G. APARICIO",
@@ -23364,12 +23364,12 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 5,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "MELCHOR GARCIA",
         "dia": 6,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -23664,7 +23664,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 3,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "J.A. CORREA",
@@ -23849,7 +23849,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 9,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -23974,17 +23974,17 @@
       {
         "agente": "SARMIENTO",
         "dia": 3,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "SARMIENTO",
         "dia": 4,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "SARMIENTO",
         "dia": 5,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "SARMIENTO",
@@ -24119,7 +24119,7 @@
       {
         "agente": "ANTONIO MALIA",
         "dia": 1,
-        "turno": "N"
+        "turno": "BA"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -24749,12 +24749,12 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 3,
-        "turno": "VA"
+        "turno": "PL"
       },
       {
         "agente": "A. CAAMAÑO",
         "dia": 4,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -24764,7 +24764,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 6,
-        "turno": "VA"
+        "turno": "PL"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -25059,12 +25059,12 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 3,
-        "turno": "PL"
+        "turno": "D"
       },
       {
         "agente": "SAMUEL PEREZ",
         "dia": 4,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "SAMUEL PEREZ",
