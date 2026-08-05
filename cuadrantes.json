@@ -1,5 +1,5 @@
 {
-  "actualizado": "04/08/2026 11:03:01",
+  "actualizado": "05/08/2026 20:02:53",
   "cuadrantes": {
     "ENERO": [
       {
@@ -20612,7 +20612,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 14,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "J.A. CORREA",
@@ -22459,7 +22459,7 @@
       {
         "agente": "PATRICIA",
         "dia": 10,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "PATRICIA",
@@ -23229,7 +23229,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 9,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "ANA ANDRADES",
@@ -23854,7 +23854,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 10,
-        "turno": "N"
+        "turno": "CM"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -24299,12 +24299,12 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 6,
-        "turno": "M"
+        "turno": "AF"
       },
       {
         "agente": "VICTOR GUERRA",
         "dia": 7,
-        "turno": "N"
+        "turno": "AF"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -24469,7 +24469,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 9,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -24588,165 +24588,165 @@
       },
       {
         "agente": "JOSE M. PUPO",
-        "dia": 2,
-        "turno": "HM"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 3,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 4,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 5,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 6,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 7,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 8,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 9,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 10,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 11,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 12,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 13,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 14,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 15,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 16,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 17,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 18,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 19,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 20,
-        "turno": "VA"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 21,
-        "turno": "D"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 22,
-        "turno": "D"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 23,
-        "turno": "D"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 24,
-        "turno": "PL"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 25,
-        "turno": "N"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 26,
-        "turno": "D"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 27,
-        "turno": "D"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 28,
-        "turno": "PL"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 29,
-        "turno": "PL"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 30,
-        "turno": "N"
-      },
-      {
-        "agente": "JOSE M. PUPO",
-        "dia": 31,
-        "turno": "D"
-      },
-      {
-        "agente": "A. CAAMAÑO",
-        "dia": 1,
-        "turno": "VA"
-      },
-      {
-        "agente": "A. CAAMAÑO",
         "dia": 2,
         "turno": "HM"
       },
       {
+        "agente": "JOSE M. PUPO",
+        "dia": 3,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 4,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 5,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 6,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 7,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 8,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 9,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 10,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 11,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 12,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 13,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 14,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 15,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 16,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 17,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 18,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 19,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 20,
+        "turno": "VA"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 21,
+        "turno": "D"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 22,
+        "turno": "D"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 23,
+        "turno": "D"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 24,
+        "turno": "PL"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 25,
+        "turno": "N"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 26,
+        "turno": "D"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 27,
+        "turno": "D"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 28,
+        "turno": "PL"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 29,
+        "turno": "PL"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 30,
+        "turno": "N"
+      },
+      {
+        "agente": "JOSE M. PUPO",
+        "dia": 31,
+        "turno": "D"
+      },
+      {
+        "agente": "A. CAAMAÑO",
+        "dia": 1,
+        "turno": "VA"
+      },
+      {
+        "agente": "A. CAAMAÑO",
+        "dia": 2,
+        "turno": "HM"
+      },
+      {
         "agente": "A. CAAMAÑO",
         "dia": 3,
         "turno": "PL"
@@ -24779,7 +24779,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 9,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -24919,7 +24919,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 6,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -24934,7 +24934,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 9,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -25234,7 +25234,7 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 7,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "FRANCISCO ASENCIO",
