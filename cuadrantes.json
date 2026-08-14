@@ -1,5 +1,5 @@
 {
-  "actualizado": "14/08/2026 01:07:06",
+  "actualizado": "14/08/2026 12:30:09",
   "cuadrantes": {
     "ENERO": [
       {
@@ -22572,6 +22572,16 @@
         "turno": "D"
       },
       {
+        "agente": "GRUPO 1",
+        "dia": 1,
+        "turno": "HN"
+      },
+      {
+        "agente": "GRUPO 1",
+        "dia": 16,
+        "turno": "HM"
+      },
+      {
         "agente": "J.G. GUNDIN",
         "dia": 1,
         "turno": "D"
@@ -23264,12 +23274,12 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 15,
-        "turno": "D"
+        "turno": "CN"
       },
       {
         "agente": "ANA ANDRADES",
         "dia": 16,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "ANA ANDRADES",
@@ -25279,7 +25289,7 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 15,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "FRANCISCO ASENCIO",
