@@ -1,0 +1,53 @@
+name: Sincronizar cuadrantes con repositorio privado
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "cuadrantes.json"
+
+jobs:
+  sincronizar:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Descargar repositorio origen
+        uses: actions/checkout@v4
+
+      - name: Descargar repositorio privado
+        uses: actions/checkout@v4
+        with:
+          repository: David-Lechuga/Cuadrante-PL-Vejer-Privado
+          token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+          path: privado
+
+      - name: Copiar cuadrantes.json
+        run: |
+          cp cuadrantes.json privado/data/cuadrantes.json
+
+      - name: Comprobar cambios
+        id: cambios
+        working-directory: privado
+        run: |
+          if git diff --quiet -- data/cuadrantes.json; then
+            echo "cambiado=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "cambiado=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Configurar Git
+        if: steps.cambios.outputs.cambiado == 'true'
+        working-directory: privado
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Guardar actualización
+        if: steps.cambios.outputs.cambiado == 'true'
+        working-directory: privado
+        run: |
+          git add data/cuadrantes.json
+          git commit -m "Actualizar cuadrantes.json automáticamente"
+          git push
