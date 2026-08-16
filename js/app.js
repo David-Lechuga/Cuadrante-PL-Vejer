@@ -245,10 +245,47 @@ activarEventosAgentes();
 }
 
 function irAHoy(){
- const hoy=new Date();
- document.getElementById("dia").value=hoy.getDate();
- document.getElementById("mes").value=hoy.getMonth()+1;
- buscarTurnos();
+    const hoy=new Date();
+
+    document.getElementById("dia").value =
+        hoy.getDate();
+
+    document.getElementById("mes").value =
+        hoy.getMonth()+1;
+
+    buscarTurnos();
+}
+
+function siguienteDia(){
+
+    const dia =
+        parseInt(
+            document.getElementById("dia").value
+        );
+
+    const mes =
+        parseInt(
+            document.getElementById("mes").value
+        );
+
+    const fechaActual =
+        new Date(
+            2026,
+            mes - 1,
+            dia
+        );
+
+    fechaActual.setDate(
+        fechaActual.getDate() + 1
+    );
+
+    document.getElementById("dia").value =
+        fechaActual.getDate();
+
+    document.getElementById("mes").value =
+        fechaActual.getMonth() + 1;
+
+    buscarTurnos();
 }
 
 cargarDatosOnline().then(()=>{
