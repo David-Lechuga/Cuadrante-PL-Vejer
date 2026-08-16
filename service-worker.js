@@ -1,4 +1,4 @@
-const CACHE_NAME = "pl-vejer-v1";
+const CACHE_NAME = "pl-vejer-v2";
 
 const STATIC_FILES = [
     "./",
@@ -12,6 +12,7 @@ self.addEventListener("install", event => {
     event.waitUntil(
         caches.open(CACHE_NAME)
             .then(cache => cache.addAll(STATIC_FILES))
+            .then(() => self.skipWaiting())
     );
 });
 
@@ -25,13 +26,13 @@ self.addEventListener("activate", event => {
                     }
                 })
             )
-        )
+        ).then(() => self.clients.claim())
     );
 });
 
 self.addEventListener("fetch", event => {
 
-    // Nunca cachear cuadrantes.json
+    // Nunca utilizar caché para cuadrantes.json
     if (event.request.url.includes("cuadrantes.json")) {
         event.respondWith(
             fetch(event.request, {
@@ -41,6 +42,20 @@ self.addEventListener("fetch", event => {
         return;
     }
 
+    // Para HTML: siempre intentar obtener la versión actual
+    if (event.request.mode === "navigate") {
+        event.respondWith(
+            fetch(event.request, {
+                cache: "no-store"
+            }).catch(() => {
+                return caches.match("./index.html");
+            })
+        );
+        return;
+    }
+
+    // Para el resto de recursos:
+    // caché primero y red como alternativa
     event.respondWith(
         caches.match(event.request)
             .then(response => response || fetch(event.request))
