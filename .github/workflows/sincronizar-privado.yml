@@ -25,7 +25,7 @@ jobs:
 
       - name: Copiar cuadrantes.json
         run: |
-          cp cuadrantes.json privado/data/cuadrantes.json
+          cp cuadrantes.json privado/cuadrantes.json
 
       - name: Comprobar cambios
         id: cambios
