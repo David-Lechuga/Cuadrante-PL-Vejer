@@ -31,7 +31,7 @@ jobs:
         id: cambios
         working-directory: privado
         run: |
-          if git diff --quiet -- data/cuadrantes.json; then
+          if git diff --quiet -- cuadrantes.json; then
             echo "cambiado=false" >> "$GITHUB_OUTPUT"
           else
             echo "cambiado=true" >> "$GITHUB_OUTPUT"
@@ -48,6 +48,6 @@ jobs:
         if: steps.cambios.outputs.cambiado == 'true'
         working-directory: privado
         run: |
-          git add data/cuadrantes.json
+          git add cuadrantes.json
           git commit -m "Actualizar cuadrantes.json automáticamente"
           git push
