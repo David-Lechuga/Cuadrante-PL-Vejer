@@ -184,8 +184,12 @@ const extraHM=[],extraHN=[],extraHm=[],extraHt=[],extraHn=[],extraHPL=[];
 datosMes.forEach(item=>{
 if(item.dia!==dia) return;
 const turno=String(item.turno).trim();
-if(turno==="M") manana.push(item.agente);
-else if(turno==="N") noche.push(item.agente);
+if(turno==="M" || turno==="CM") {
+    manana.push(item.agente);
+}
+else if(turno==="N" || turno==="CN") {
+    noche.push(item.agente);
+}
 else if(turno==="PL") playa.push(item.agente);
 else if(turno==="VA") vacaciones.push(item.agente);
 else if(turno==="HM") extraHM.push(item.agente);
