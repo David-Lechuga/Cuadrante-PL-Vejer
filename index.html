@@ -60,9 +60,18 @@
 </div>
 </div>
 
-<div class="grid md:grid-cols-2 gap-4 mt-6">
-<button onclick="buscarTurnos()" class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 rounded">Buscar Turnos</button>
-<button onclick="irAHoy()" class="bg-green-700 hover:bg-green-800 text-white font-bold py-3 rounded">Hoy</button>
+<div class="grid md:grid-cols-3 gap-4 mt-6">
+    <button onclick="buscarTurnos()" class="bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 rounded">
+        Buscar Turnos
+    </button>
+
+    <button onclick="irAHoy()" class="bg-green-700 hover:bg-green-800 text-white font-bold py-3 rounded">
+        Hoy
+    </button>
+
+    <button onclick="siguienteDia()" class="bg-[#123C73] hover:bg-[#0A2342] text-white font-bold py-3 rounded">
+        Siguiente día →
+    </button>
 </div>
 
 <div id="resultado" class="mt-8"></div>
