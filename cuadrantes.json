@@ -1,5 +1,5 @@
 {
-  "actualizado": "25/08/2026 11:37:37",
+  "actualizado": "27/08/2026 14:07:46",
   "cuadrantes": {
     "ENERO": [
       {
@@ -22564,7 +22564,7 @@
       {
         "agente": "PATRICIA",
         "dia": 30,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "PATRICIA",
@@ -22874,7 +22874,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 28,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "JOSE MARIA",
@@ -23019,7 +23019,7 @@
       {
         "agente": "DAVID MELLADO",
         "dia": 26,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "DAVID MELLADO",
@@ -23184,7 +23184,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 28,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "J.G. APARICIO",
@@ -23339,7 +23339,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 28,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "ANA ANDRADES",
@@ -23494,12 +23494,12 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 28,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "MELCHOR GARCIA",
         "dia": 29,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -23659,7 +23659,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 30,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -24394,7 +24394,7 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 22,
-        "turno": "N"
+        "turno": "AF"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -24414,7 +24414,7 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 26,
-        "turno": "M"
+        "turno": "AF"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -24889,7 +24889,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 28,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -25354,7 +25354,7 @@
       {
         "agente": "FRANCISCO ASENCIO",
         "dia": 28,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "FRANCISCO ASENCIO",
