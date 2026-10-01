@@ -1,5 +1,5 @@
 {
-  "actualizado": "28/09/2026 12:20:51",
+  "actualizado": "01/10/2026 14:24:21",
   "cuadrantes": {
     "ENERO": [
       {
@@ -25826,7 +25826,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 30,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "JOSE MARIA",
@@ -26871,7 +26871,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 29,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "J.A. CORREA",
@@ -27171,12 +27171,12 @@
       {
         "agente": "SARMIENTO",
         "dia": 29,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "SARMIENTO",
         "dia": 30,
-        "turno": "D"
+        "turno": "CM"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -27471,12 +27471,12 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 29,
-        "turno": "D"
+        "turno": "CN"
       },
       {
         "agente": "VICTOR GUERRA",
         "dia": 30,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -27926,7 +27926,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 30,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -28346,161 +28346,6 @@
     ],
     "OCTUBRE": [
       {
-        "agente": "MORENTE",
-        "dia": 1,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 2,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 3,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 4,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 5,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 6,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 7,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 8,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 9,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 10,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 11,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 12,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 13,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 14,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 15,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 16,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 17,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 18,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 19,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 20,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 21,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 22,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 23,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 24,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 25,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 26,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 27,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 28,
-        "turno": "M"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 29,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 30,
-        "turno": "D"
-      },
-      {
-        "agente": "MORENTE",
-        "dia": 31,
-        "turno": "D"
-      },
-      {
         "agente": "DOLORES LOPEZ",
         "dia": 1,
         "turno": "VA"
@@ -28668,12 +28513,12 @@
       {
         "agente": "PATRICIA",
         "dia": 3,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "PATRICIA",
         "dia": 4,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "PATRICIA",
@@ -28818,7 +28663,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 2,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -28833,7 +28678,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 5,
-        "turno": "N"
+        "turno": "AF"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -28973,7 +28818,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 2,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "JOSE MARIA",
@@ -28983,7 +28828,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 4,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "JOSE MARIA",
@@ -29123,12 +28968,12 @@
       {
         "agente": "DAVID MELLADO",
         "dia": 1,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DAVID MELLADO",
         "dia": 2,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "DAVID MELLADO",
@@ -29278,7 +29123,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 1,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "J.G. APARICIO",
@@ -29288,7 +29133,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 3,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "J.G. APARICIO",
@@ -29753,7 +29598,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 3,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -30058,17 +29903,17 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 2,
-        "turno": "D"
+        "turno": "HS"
       },
       {
         "agente": "DAVID LECHUGA",
         "dia": 3,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DAVID LECHUGA",
         "dia": 4,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30083,7 +29928,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 7,
-        "turno": "D"
+        "turno": "M"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30093,7 +29938,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 9,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30108,7 +29953,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 12,
-        "turno": "D"
+        "turno": "M"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30118,7 +29963,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 14,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30133,7 +29978,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 17,
-        "turno": "D"
+        "turno": "M"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30143,7 +29988,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 19,
-        "turno": "N"
+        "turno": "D"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30378,7 +30223,7 @@
       {
         "agente": "ANTONIO MALIA",
         "dia": 4,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -30528,17 +30373,17 @@
       {
         "agente": "VICTOR GUERRA",
         "dia": 3,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "VICTOR GUERRA",
         "dia": 4,
-        "turno": "D"
+        "turno": "CN"
       },
       {
         "agente": "VICTOR GUERRA",
         "dia": 5,
-        "turno": "M"
+        "turno": "D"
       },
       {
         "agente": "VICTOR GUERRA",
@@ -31138,7 +30983,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 1,
-        "turno": "N"
+        "turno": "CM"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -31153,7 +30998,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 4,
-        "turno": "D"
+        "turno": "Hm"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -31308,7 +31153,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 4,
-        "turno": "D"
+        "turno": "Hm"
       },
       {
         "agente": "SAMUEL PEREZ",
@@ -31452,16 +31297,6 @@
       },
       {
         "agente": "FRANCISCO ASENCIO",
-        "dia": 2,
-        "turno": "M"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 3,
-        "turno": "N"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
         "dia": 4,
         "turno": "D"
       },
@@ -31474,16 +31309,6 @@
         "agente": "FRANCISCO ASENCIO",
         "dia": 6,
         "turno": "D"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 7,
-        "turno": "M"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 8,
-        "turno": "N"
       },
       {
         "agente": "FRANCISCO ASENCIO",
@@ -31502,16 +31327,6 @@
       },
       {
         "agente": "FRANCISCO ASENCIO",
-        "dia": 12,
-        "turno": "M"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 13,
-        "turno": "N"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
         "dia": 14,
         "turno": "D"
       },
@@ -31524,16 +31339,6 @@
         "agente": "FRANCISCO ASENCIO",
         "dia": 16,
         "turno": "D"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 17,
-        "turno": "M"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 18,
-        "turno": "N"
       },
       {
         "agente": "FRANCISCO ASENCIO",
@@ -31552,16 +31357,6 @@
       },
       {
         "agente": "FRANCISCO ASENCIO",
-        "dia": 22,
-        "turno": "M"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 23,
-        "turno": "N"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
         "dia": 24,
         "turno": "D"
       },
@@ -31574,16 +31369,6 @@
         "agente": "FRANCISCO ASENCIO",
         "dia": 26,
         "turno": "D"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 27,
-        "turno": "M"
-      },
-      {
-        "agente": "FRANCISCO ASENCIO",
-        "dia": 28,
-        "turno": "N"
       },
       {
         "agente": "FRANCISCO ASENCIO",
