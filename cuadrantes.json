@@ -1,5 +1,5 @@
 {
-  "actualizado": "09/10/2026 18:49:55",
+  "actualizado": "14/10/2026 14:00:04",
   "cuadrantes": {
     "ENERO": [
       {
@@ -28563,12 +28563,12 @@
       {
         "agente": "PATRICIA",
         "dia": 13,
-        "turno": "M"
+        "turno": "AF"
       },
       {
         "agente": "PATRICIA",
         "dia": 14,
-        "turno": "M"
+        "turno": "AF"
       },
       {
         "agente": "PATRICIA",
@@ -29198,7 +29198,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 16,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "J.G. APARICIO",
@@ -29498,7 +29498,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 14,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -29513,7 +29513,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 17,
-        "turno": "VA"
+        "turno": "Ht"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -29963,7 +29963,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 14,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -30113,7 +30113,7 @@
       {
         "agente": "SARMIENTO",
         "dia": 13,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "SARMIENTO",
@@ -30268,7 +30268,7 @@
       {
         "agente": "ANTONIO MALIA",
         "dia": 13,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -30588,7 +30588,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 15,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -30893,7 +30893,7 @@
       {
         "agente": "A. CAAMAÑO",
         "dia": 14,
-        "turno": "M"
+        "turno": "BA"
       },
       {
         "agente": "A. CAAMAÑO",
@@ -31053,12 +31053,12 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 15,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 16,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL CORTABARRA",
