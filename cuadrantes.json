@@ -1,5 +1,5 @@
 {
-  "actualizado": "30/10/2026 12:55:49",
+  "actualizado": "03/11/2026 17:45:21",
   "cuadrantes": {
     "ENERO": [
       {
@@ -31243,7 +31243,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 22,
-        "turno": "BA"
+        "turno": "LD"
       },
       {
         "agente": "SAMUEL PEREZ",
@@ -31263,12 +31263,12 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 26,
-        "turno": "BA"
+        "turno": "LD"
       },
       {
         "agente": "SAMUEL PEREZ",
         "dia": 27,
-        "turno": "BA"
+        "turno": "LD"
       },
       {
         "agente": "SAMUEL PEREZ",
@@ -31288,7 +31288,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 31,
-        "turno": "BA"
+        "turno": "LD"
       },
       {
         "agente": "FRANCISCO ASENCIO",
@@ -31415,7 +31415,7 @@
       {
         "agente": "DOLORES LOPEZ",
         "dia": 6,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "DOLORES LOPEZ",
@@ -31710,7 +31710,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 5,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -31870,7 +31870,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 7,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "JOSE MARIA",
@@ -32020,7 +32020,7 @@
       {
         "agente": "DAVID MELLADO",
         "dia": 7,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "DAVID MELLADO",
@@ -32465,7 +32465,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 6,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -32620,7 +32620,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 7,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -33210,7 +33210,7 @@
       {
         "agente": "ANTONIO MALIA",
         "dia": 5,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "ANTONIO MALIA",
@@ -33515,12 +33515,12 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 6,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 7,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -33670,7 +33670,7 @@
       {
         "agente": "JOSE M. PUPO",
         "dia": 7,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "JOSE M. PUPO",
@@ -33960,12 +33960,12 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 5,
-        "turno": "N"
+        "turno": "M"
       },
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 6,
-        "turno": "D"
+        "turno": "M"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -34090,7 +34090,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 1,
-        "turno": "BA"
+        "turno": "LD"
       },
       {
         "agente": "SAMUEL PEREZ",
@@ -34110,7 +34110,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 5,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "SAMUEL PEREZ",
