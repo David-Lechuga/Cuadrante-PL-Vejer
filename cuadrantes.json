@@ -1,5 +1,5 @@
 {
-  "actualizado": "16/11/2026 19:13:41",
+  "actualizado": "19/11/2026 08:22:33",
   "cuadrantes": {
     "ENERO": [
       {
@@ -19932,7 +19932,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 1,
-        "turno": "LD"
+        "turno": "HJ"
       },
       {
         "agente": "J.G. APARICIO",
@@ -32390,7 +32390,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 21,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "ANA ANDRADES",
@@ -32690,7 +32690,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 21,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -32990,12 +32990,12 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 21,
-        "turno": "M"
+        "turno": "HS"
       },
       {
         "agente": "DAVID LECHUGA",
         "dia": 22,
-        "turno": "M"
+        "turno": "HP"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -33965,7 +33965,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 6,
-        "turno": "M"
+        "turno": "HM"
       },
       {
         "agente": "OFICIAL CORTABARRA",
@@ -34045,7 +34045,7 @@
       {
         "agente": "OFICIAL CORTABARRA",
         "dia": 22,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "OFICIAL CORTABARRA",
