@@ -1,5 +1,5 @@
 {
-  "actualizado": "19/11/2026 09:23:08",
+  "actualizado": "25/11/2026 08:53:55",
   "cuadrantes": {
     "ENERO": [
       {
@@ -31500,7 +31500,7 @@
       {
         "agente": "DOLORES LOPEZ",
         "dia": 23,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "DOLORES LOPEZ",
@@ -31810,7 +31810,7 @@
       {
         "agente": "J.G. GUNDIN",
         "dia": 25,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "J.G. GUNDIN",
@@ -31960,7 +31960,7 @@
       {
         "agente": "JOSE MARIA",
         "dia": 25,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "JOSE MARIA",
@@ -32260,7 +32260,7 @@
       {
         "agente": "J.G. APARICIO",
         "dia": 25,
-        "turno": "M"
+        "turno": "AF"
       },
       {
         "agente": "J.G. APARICIO",
@@ -32430,7 +32430,7 @@
       {
         "agente": "ANA ANDRADES",
         "dia": 29,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "ANA ANDRADES",
@@ -32565,7 +32565,7 @@
       {
         "agente": "MELCHOR GARCIA",
         "dia": 26,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "MELCHOR GARCIA",
@@ -32730,7 +32730,7 @@
       {
         "agente": "PEDRO GUERRERO",
         "dia": 29,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "PEDRO GUERRERO",
@@ -32860,7 +32860,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 25,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "J.A. CORREA",
@@ -32880,7 +32880,7 @@
       {
         "agente": "J.A. CORREA",
         "dia": 29,
-        "turno": "N"
+        "turno": "HS"
       },
       {
         "agente": "J.A. CORREA",
@@ -33000,7 +33000,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 23,
-        "turno": "D"
+        "turno": "HM"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -33020,7 +33020,7 @@
       {
         "agente": "DAVID LECHUGA",
         "dia": 27,
-        "turno": "M"
+        "turno": "HP"
       },
       {
         "agente": "DAVID LECHUGA",
@@ -33170,12 +33170,12 @@
       {
         "agente": "SARMIENTO",
         "dia": 27,
-        "turno": "VA"
+        "turno": "HM"
       },
       {
         "agente": "SARMIENTO",
         "dia": 28,
-        "turno": "VA"
+        "turno": "HN"
       },
       {
         "agente": "SARMIENTO",
@@ -33605,7 +33605,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 24,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -33615,7 +33615,7 @@
       {
         "agente": "OFICIAL MUÑOZ",
         "dia": 26,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "OFICIAL MUÑOZ",
@@ -33770,12 +33770,12 @@
       {
         "agente": "JOSE M. PUPO",
         "dia": 27,
-        "turno": "M"
+        "turno": "LD"
       },
       {
         "agente": "JOSE M. PUPO",
         "dia": 28,
-        "turno": "N"
+        "turno": "LD"
       },
       {
         "agente": "JOSE M. PUPO",
@@ -34220,7 +34220,7 @@
       {
         "agente": "SAMUEL PEREZ",
         "dia": 27,
-        "turno": "D"
+        "turno": "HN"
       },
       {
         "agente": "SAMUEL PEREZ",
